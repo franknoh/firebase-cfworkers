@@ -1,9 +1,14 @@
 {
   "name": "firebase-cfworkers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "firebase admin sdk for cloudflare workers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+github.com:franknoh/firebase-cfworkers.git"
+  },
+  "homepage": "github.com/franknoh/firebase-cfworkers#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
