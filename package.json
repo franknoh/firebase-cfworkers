@@ -1,0 +1,25 @@
+{
+  "name": "firebase-cfworkers",
+  "version": "1.0.0",
+  "description": "firebase admin sdk for cloudflare workers",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "prepublish": "tsc",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "cfworkers",
+    "firebase"
+  ],
+  "author": "franknoh",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@tsndr/cloudflare-worker-jwt": "^2.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
