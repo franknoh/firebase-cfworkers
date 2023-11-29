@@ -28,7 +28,6 @@ export default class firestore {
 		let body = {
 			fields: wrapDocument(doc)
 		};
-		console.log(body);
 		const response = await this.sendPostRequest(url, body);
 		return await parseDocument(response);
 	}

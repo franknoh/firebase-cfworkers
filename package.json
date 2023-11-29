@@ -1,6 +1,6 @@
 {
   "name": "firebase-cfworkers",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "firebase admin sdk for cloudflare workers",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
